@@ -1,5 +1,5 @@
 module.exports = {
-  token: process.env.TOKEN, // ✅ FIXED
+  token: process.env.DISCORD_TOKEN,
 
   prefix: "!",
   enablePrefix: true,
