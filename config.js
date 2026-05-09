@@ -12,7 +12,7 @@ module.exports = {
 
   express: {
     enabled: true,
-    port: process.env.PORT || 5000 // ✅ FIXED
+    port: process.env.PORT || 3000 // ✅ FIXED
   },
 
   emojis: {
