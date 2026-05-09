@@ -1,18 +1,18 @@
-// config.js
 module.exports = {
-  token: process.env.DISCORD_TOKEN,
+  token: process.env.TOKEN, // ✅ FIXED
+
   prefix: "!",
   enablePrefix: true,
   supportServer: "https://discord.gg/9MVAPpfs8D",
 
   activity: {
     name: "/help",
-    type: "LISTENING" // PLAYING, LISTENING, WATCHING, STREAMING, COMPETING
+    type: "LISTENING"
   },
 
   express: {
     enabled: true,
-    port: 5000
+    port: process.env.PORT || 5000 // ✅ FIXED
   },
 
   emojis: {
